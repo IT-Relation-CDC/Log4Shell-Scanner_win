@@ -1,5 +1,5 @@
 # Log4Shell-Scanner_win
-An Log4Shell convenience scanner for Microsoft Windows-based systems based on [Velociraptor](https://github.com/Velocidex/velociraptor) and yara (CVE-2021-44228).
+An Log4Shell convenience scanner for Microsoft Windows-based systems based on [Velociraptor](https://github.com/Velocidex/velociraptor) and yara (CVE-2021-44228), first released on https://www.itrelation.dk/log4shell December 15th, 2021.
 
 
 ## What's this?
@@ -21,7 +21,7 @@ See more at https://www.itrelation.dk/log4shell (danish).
 4. Initial benchmarking of the scanner is set to 20-30 minutes for a run, velociraptor is set with the --cpu-limit=5 flag to avoid disruptions, this can of course be removed if wanted in the .ps1 files.
 5. A file named `log4j_SEE_YOUR_RESULTS_HERE.zip` should be put in the directory of the scanner.
 6. Unzip this file and open either the json or csv file to see where it found possible indicators of the affected Log4J version.
-7. 
+
 
 ## Known issues
 - Mounted network drives can cause issues and large wait times for the scan, please consider disconnecting these before starting.
